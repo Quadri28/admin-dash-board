@@ -1,0 +1,30 @@
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+
+h3{
+    margin: 1rem 0;
+}
+@media screen and (max-width:1200px){
+    .right-side{
+        justify-content: flex-start;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .right-side{
+        width: 100%;
+        margin-top: 0;
+    }
+    .right-side>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+    }
+}
